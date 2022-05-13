@@ -5,7 +5,6 @@ import { data } from './data'
 
 function App() {
   const [ isLoading, setIsloading ] = useState(true)
-  // const [ orders, setOrders ] = useState<{id: string, orderNumber: string, text: string, type: string, data: TextBlock[] }[]>([])
   const [ orders, setOrders ] = useState<TitleBlock[]>([])
 
   useEffect(() => {
