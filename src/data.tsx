@@ -27,7 +27,6 @@ const makeTitleBlock = (orderNum: number)=> {
   text: loremIpsum(),
   data:[..._.times(200, (i):TextBlock=> makeTextBlock(orderNum, i))]
   }
-  console.log('titleBlock', titleBlock)
   return titleBlock
 }
 

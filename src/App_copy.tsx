@@ -21,7 +21,7 @@ function App() {
         {orders.map(order=>{
           return <li key={order.id}>{order.orderNumber}
             <ul>{order.data.map(subOrder=>{
-            return <li key={subOrder.id}>{subOrder.orderNumber}</li>
+            return <li>{subOrder.orderNumber}</li>
             }
             )}</ul>
           </li>
